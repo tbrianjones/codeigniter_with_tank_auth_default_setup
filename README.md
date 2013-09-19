@@ -17,6 +17,9 @@ System Usage
 - update `.htaccess`
 - update `$config['base_url']` in `/config/config.php`
 
+### robots.txt
+- by default, `robots.txt` blocks all robots
+
 ### Profiling
 - turned on and off for every page in `/core/MY_Controller.php` ( on by default )
 - `$this->output->enable_profiler( TRUE );`
