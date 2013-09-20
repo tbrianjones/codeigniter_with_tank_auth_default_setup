@@ -1,4 +1,10 @@
-body {}
+body {
+font-family: sans-serif;
+font-size: 15px; }
+
+a {}
+	a:hover {
+	text-decoration: none; }
 
 
 /*** sits inside body, but wraps all content ***/
@@ -26,6 +32,22 @@ border-top: 1px solid #ccc; }
 
 
 /*** generic ***/
+
+.message {
+background-color: #d5ffd5;
+color: #006600;
+padding: 5px 10px; }
+
+.alert {
+background-color: #fff9e3;
+color: #795b00;
+padding: 5px 10px; }
+
+.error {
+background-color: #fddfdf;
+color: #b31300;
+font-weight: bold;
+padding: 5px 10px; }
 
 .block {
 margin: 25px 0; }
