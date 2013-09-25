@@ -43,7 +43,7 @@
 			$this->head['meta_description'] = 'Generic Meta Description';
 						
 			// css
-			//$this->data['css'][] = "\n" . '<link rel="stylesheet" href="/styles/reset.css" type="text/css">' . "\n";
+			//$this->head['css'][] = "\n" . '<link rel="stylesheet" href="/styles/reset.css" type="text/css">' . "\n";
 			$this->head['css'][] = "\n" . '<link rel="stylesheet" href="/styles/common.css" type="text/css">' . "\n";
 			
 			// google analytics	
