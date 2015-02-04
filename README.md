@@ -10,6 +10,15 @@ General Notes
 - If cloning this repo, you will need to follow the System Setup notes below to get the system running correctly.
 
 
+Upgrades to Do
+--------------
+- install Pure CSS before starting next project
+  - super clean, mobile friendly, responsive, grid based, css library
+  - tbj, refer to the rexsi project for implementation
+  - this will require a rework of the entire css framework in here: header, body, content, etc...
+  - http://purecss.io/
+  
+  
 System Usage
 ------------
 
@@ -81,6 +90,11 @@ System Usage
 - loaded by the common views via the `/views/common/header.php` file
 - files found in `/views/navigation/`
 - **commented out by default**
+
+### Error Messages
+- these will be set in flashdata in the user session and automatically displayed in the header file
+- `$this->session->set_flashdata( 'error_message', 'Some message to user.' );`
+- you can use 'message' or 'error_message' for different style alerts
 
 
 System Setup

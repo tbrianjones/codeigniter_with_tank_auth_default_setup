@@ -36,18 +36,30 @@ border-top: 1px solid #ccc; }
 .message {
 background-color: #d5ffd5;
 color: #006600;
-padding: 5px 10px; }
+padding: 8px 15px; }
+
+.note {
+background-color: #e6edff;
+color: #00006c;
+padding: 8px 15px; }
 
 .alert {
 background-color: #fff9e3;
 color: #795b00;
-padding: 5px 10px; }
+padding: 8px 15px; }
 
 .error {
 background-color: #fddfdf;
 color: #b31300;
 font-weight: bold;
-padding: 5px 10px; }
+padding: 8px 15px; }
+
+.flash_message {
+display: none;
+margin: 0;
+padding: 25px;
+font-size: 1.5em;
+text-align: center; }
 
 .block {
 margin: 25px 0; }

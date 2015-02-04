@@ -41,7 +41,10 @@
 			// page meta title
 			$this->head['meta_title'] = 'Generic Meta Title';
 			$this->head['meta_description'] = 'Generic Meta Description';
-						
+      
+      // jquery
+      $this->head['headers'][] = "\n".'<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>'."\n";
+      
 			// css
 			//$this->head['css'][] = "\n" . '<link rel="stylesheet" href="/styles/reset.css" type="text/css">' . "\n";
 			$this->head['css'][] = "\n" . '<link rel="stylesheet" href="/styles/common.css" type="text/css">' . "\n";
